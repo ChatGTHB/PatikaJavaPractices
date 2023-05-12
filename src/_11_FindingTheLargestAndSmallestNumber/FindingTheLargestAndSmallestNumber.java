@@ -1,0 +1,39 @@
+package _11_FindingTheLargestAndSmallestNumber;
+
+import java.util.Scanner;
+
+public class FindingTheLargestAndSmallestNumber {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the number of counting numbers: ");
+        int n = input.nextInt();
+
+        int max = Integer.MIN_VALUE;
+        System.out.println("max = " + max);
+        int min = Integer.MAX_VALUE;
+        System.out.println("min = " + min);
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter a number: ");
+            int num = input.nextInt();
+
+            if (num > max) {
+                max = num;
+            }
+
+            if (num < min) {
+                min = num;
+            }
+        }
+
+        System.out.println("The largest number: " + max);
+        System.out.println("The smallest number: " + min);
+
+        input.close();
+    }
+
+}
+
+
