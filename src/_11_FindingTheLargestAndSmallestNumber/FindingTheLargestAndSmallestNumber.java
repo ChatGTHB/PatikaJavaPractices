@@ -12,9 +12,8 @@ public class FindingTheLargestAndSmallestNumber {
         int n = input.nextInt();
 
         int max = Integer.MIN_VALUE;
-        System.out.println("max = " + max);
         int min = Integer.MAX_VALUE;
-        System.out.println("min = " + min);
+
         for (int i = 0; i < n; i++) {
             System.out.print("Enter a number: ");
             int num = input.nextInt();
