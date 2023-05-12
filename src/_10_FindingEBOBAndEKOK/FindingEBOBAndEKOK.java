@@ -21,21 +21,21 @@ public class FindingEBOBAndEKOK {
 
     private static void findEBOBAndEKOK(int number1, int number2) {
 
-        int smallNumber = 0, bigNumber = 0;
+        int smallNumber = 0, largeNumber = 0;
 
         if (number1 < number2) {
             smallNumber = number1;
-            bigNumber = number2;
+            largeNumber = number2;
         } else if (number1 > number2) {
             smallNumber = number2;
-            bigNumber = number1;
+            largeNumber = number1;
         } else {
-            smallNumber = bigNumber;
+            smallNumber = largeNumber;
         }
 
         int number = 1, ebob = 1;
         while (number <= smallNumber) {
-            if (smallNumber % number == 0 && bigNumber % number == 0) {
+            if (smallNumber % number == 0 && largeNumber % number == 0) {
                 ebob = number;
             }
             number++;
