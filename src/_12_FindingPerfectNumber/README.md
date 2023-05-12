@@ -7,7 +7,7 @@ A program that writes expressions to the screen.
 ```
 
 ```
-Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan 
+Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan
 ve sayı mükemmel sayı ise ekrana “mükemmel sayıdır.” 
 değilse “mükemmel sayı değildir.” ifadelerini ekrana yazan program.
 ```
