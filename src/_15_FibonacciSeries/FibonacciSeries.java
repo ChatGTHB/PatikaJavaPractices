@@ -6,6 +6,7 @@ public class FibonacciSeries {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter a limit number for the Fibonacci series: ");
         int maxNumber = input.nextInt();
 
