@@ -1,6 +1,6 @@
-package _22_PrintAWithStars;
+package _22_PrintBWithStars;
 
-public class PrintAWithStars {
+public class PrintBWithStars {
     public static void main(String[] args) {
 
         String[][] letter = new String[5][4];
