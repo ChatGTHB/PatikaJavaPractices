@@ -8,6 +8,7 @@ Dizideki elemanların girilen sayıdan küçük en yakın sayı ile
 büyük en yakın sayıyı bulan program.
 ```
 ![img.png](img.png)
+
 [Patika](https://www.patika.dev)
 
 
