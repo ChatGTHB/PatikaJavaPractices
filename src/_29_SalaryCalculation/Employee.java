@@ -55,7 +55,7 @@ public class Employee {
                 "Tax = " + this.tax + "\n" +
                 "Bonus = " + this.bonus + "\n" +
                 "Raise Salary = " + this.raiseSalary + "\n" +
-                "Salary without raise with taxes and bonuses = " + (this.salary-this.tax+this.bonus) + "\n" +
-                "Zamlı Maaş = " + (this.salary+this.raiseSalary);
+                "Salary Without Raise With Taxes And Bonuses = " + (this.salary-this.tax+this.bonus) + "\n" +
+                "Raised Total Salary = " + (this.salary+this.raiseSalary);
     }
 }
