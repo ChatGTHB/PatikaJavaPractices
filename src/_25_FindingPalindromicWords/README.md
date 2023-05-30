@@ -3,7 +3,7 @@
 Program to Find Palindrome Words
 ```
 ```
-Palindromik Kelimleri Bulan Program.
+Palindromik Kelimeleri Bulan Program.
 ```
 ![img.png](img.png)
 
