@@ -1,4 +1,4 @@
-package _26_ExponentCalculatorProgramWithRucursive;
+package _26_ExponentCalculatorProgramWithRecursive;
 
 import java.util.Scanner;
 
